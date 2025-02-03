@@ -1,0 +1,10 @@
+div {
+    text-align: center;
+    color: red;
+}
+
+div p {
+    background-color: yellow;
+    font-size: 20px;
+}
+
