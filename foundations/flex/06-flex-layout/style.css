@@ -5,6 +5,57 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+ul {
+  list-style: none;
+}
+
+.header .left-links{
+  display: flex;
+  gap: 10px;
+  
+}
+
+.header .right-links{
+  display: flex;
+  gap: 10px;
+  margin-right: 35px;
+}
+
+.footer {
+  background-color: #e7dede;
+  display: flex;
+  margin-top: auto;
+}
+
+
+.footer .left-links{
+  display: flex;
+  gap: 10px;
+  margin-right: auto;
+}
+
+.footer .right-links{
+  display: flex;
+  gap: 10px;
+  margin-left: auto; 
+  margin-right: 35px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #9e9797;
 }
 
 img {
